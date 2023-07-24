@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# React Todo App
+<h3>visit: https://react-todo-list-apps.netlify.app/</h3>
+<img alt="alt_text" src="./todo.gif"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description:
+In this project, a simple React Todo App is developed, allowing users to add and manage their todo items. The application comprises two main components: Header and TodoList. Additionally, the Bootstrap CSS library is used for styling.
 
-In the project directory, you can run:
+## Components:
 
-### `yarn start`
+### Header
+- The Header component serves as the main entry point of the Todo App.
+- It contains the state hooks 'input' and 'list'.
+- The 'list' state is initialized using the useState hook and retrieves previous data from localStorage, if available.
+- The component includes functionality to add, delete, and mark todo items as completed.
+- Users can input new todo items in the text input, and pressing 'Enter' or clicking the 'Add Todo' button will add the item to the list.
+- If the input is empty and the 'Add Todo' button is clicked, an alert is shown to prompt the user to add a todo list.
+- The list of todo items is rendered as an unordered list (<ul>) using the map function to display the items and their corresponding status (completed or not).
+- Todo items can be marked as completed or not completed by double-clicking on them.
+- A 'Delete' button for each todo item allows users to remove items from the list.
+- The component uses localStorage to store the todo list, ensuring that the data persists when the user reloads the page or revisits the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### TodoList
+- The TodoList component is a placeholder component, currently empty and not used in the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Styling
+- The application utilizes Bootstrap CSS to style the elements.
+- The Header component contains a heading displaying "Todo App" in red and centered at the top.
+- An input field with a 'Add Todo' button allows users to input new todo items.
+- Todo items are displayed as a list with a checkbox for completed items.
+- Completed items have a strikethrough effect, while non-completed items are displayed normally.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Summary
+The React Todo App is a straightforward yet functional application that allows users to manage their todo items. It demonstrates the use of React's state management with the useState hook, handling user interactions, and basic styling with the Bootstrap CSS library. The app provides an easy-to-use interface for adding, deleting, and marking todo items as completed, with the ability to persist data using localStorage. This project serves as a foundation for more advanced todo applications or can be further enhanced with additional features and styling.
