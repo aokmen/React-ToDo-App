@@ -24,7 +24,7 @@ In this project, a simple React Todo App is developed, allowing users to add and
 - The TodoList component is a placeholder component, currently empty and not used in the application.
 
 ## Styling
-- The application utilizes Bootstrap CSS to style the elements.
+- The application utilizes Bootstrap CSS to style the elements. 
 - The Header component contains a heading displaying "Todo App" in red and centered at the top.
 - An input field with a 'Add Todo' button allows users to input new todo items.
 - Todo items are displayed as a list with a checkbox for completed items.
