@@ -10,7 +10,7 @@ In this project, a simple React Todo App is developed, allowing users to add and
 
 ### Header
 - The Header component serves as the main entry point of the Todo App.
-- It contains the state hooks 'input' and 'list'.
+- It contains the state hooks 'input' and 'list'. 
 - The 'list' state is initialized using the useState hook and retrieves previous data from localStorage, if available.
 - The component includes functionality to add, delete, and mark todo items as completed.
 - Users can input new todo items in the text input, and pressing 'Enter' or clicking the 'Add Todo' button will add the item to the list.
