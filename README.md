@@ -6,7 +6,7 @@
 ## Description:
 In this project, a simple React Todo App is developed, allowing users to add and manage their todo items. The application comprises two main components: Header and TodoList. Additionally, the Bootstrap CSS library is used for styling.
 
-## Components:
+## Components: 
 
 ### Header 
 - The Header component serves as the main entry point of the Todo App.
